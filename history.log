@@ -1,0 +1,140 @@
+    1  ls
+    2  git config -l
+    3  git -v
+    4  cd  D:
+    5  git init DS
+    6  cd DS
+    7  ls -a
+    8  cd ..
+    9  ls -a
+   10  cd D:
+   11  cd DS
+   12  git config user.name="DIPANWITA SINGHA"
+   13  git config user.name ="DIPANWITA SINGHA"
+   14  git config -l
+   15  git config --global user.email ="dipanwita.singha.26@gmail.com"
+   16  git config -l
+   17  git config --global -l
+   18  git config --local -l
+   19  git status
+   20  vi trial.c
+   21  ls -a
+   22  git status
+   23  git add trial.c
+   24  git status
+   25  git commit -m "Commiting the first GIT based .c file"
+   26  git status
+   27  git log
+   28  git branch
+   29  pwd
+   30  git branch Java
+   31  git branch
+   32  git checkout Java
+   33  vi trial.java
+   34  git status
+   35  git add trial.java
+   36  git status
+   37  git commit -m "Commiting first GIT bashed .java file"
+   38  git checkout Master
+   39  git status
+   40  git log
+   41  git checkout Java
+   42  git log
+   43  git checkout Master
+   44  git log --all
+   45  vi trial.c
+   46  git diff
+   47  vi trial.c
+   48  git diff
+   49  clear
+   50  exit
+   51  vi trial.c
+   52  history
+   53  cd D:
+   54  cd DS
+   55  git config -l
+   56  git config -l
+   57  git branch
+   58  git status
+   59  git log --oneline
+   60  git checkout java
+   61  ls -a
+   62  git log --oneline
+   63  git branch python
+   64  git checkout python
+   65  git branch
+   66  vi first.py
+   67  git status
+   68  git add first.py
+   69  git status
+   70  git commit -m "Commiting on python branch first python file"
+   71  git log --oneline
+   72  ls -a
+   73  git revert c9c072a
+   74  ls -a
+   75  git log --oneline
+   76  git revert 5db8ca4
+   77  ls -a
+   78  vi first.py
+   79  git status
+   80  git checkout master
+   81  git add trial.c
+   82  git status
+   83  git checkout python
+   84  git status
+   85  git checkout master
+   86  git commit -m "C file changed"
+   87  git status
+   88  git log --oneline
+   89  git checkout python
+   90  git log --oneline
+   91  git remote add origin https://github.com/dipya14/DevOps.git
+   92  git branch
+   93  git push --force origin python
+   94  ls
+   95  git checkout master
+   96  git init DS_2
+   97  cd DS_2
+   98  git clone https://github.com/dipya14/DevOps.git
+   99  ls -a
+  100  cd DevOps/
+  101  ls -a
+  102  cd ..
+  103  cd ..
+  104  git init DS_3
+  105  cd DS_3
+  106  git pull origin python
+  107  cd DS_2
+  108  cd ..
+  109  cd DS_2
+  110  git branch -a
+  111  git clone origin https://github.com/dipya14/DevOps.git
+  112  ls -a
+  113  git branch
+  114  cd ..
+  115  cd DS_3
+  116  git pull origin python
+  117  cd ..
+  118  cd DS_2
+  119  git branch
+  120  cd ..
+  121  git checkout python
+  122  ls -a
+  123  cd DS_3
+  124  cd ..
+  125  cd ..
+  126   cd DS
+  127  cd ..
+  128   cd DS
+  129  cd DS_3
+  130  ls -a
+  131  git clone --single--python
+  132  exit
+  133  cd
+  134  pwd
+  135  d:
+  136  /d
+  137  cd d:
+  138  cd CSBS_009
+  139  history
+  140  history > history.log
